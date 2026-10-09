@@ -16,9 +16,9 @@ redeploys in about 30 seconds.
 
 ## Common edits
 
-**Add your first paper.** Open `index.html`, find the big commented-out
-`PUBLICATIONS` block, delete the `<!--` and `-->` around it, and fill in the
-details. Copy the `<li>...</li>` once per paper.
+**Add a paper.** Open `index.html`, find the `Papers` section, copy the
+existing `<li>...</li>`, paste it above the others (newest first), and change
+the title, authors and links. Keep `<u>Renjie Shao</u>` so your name is underlined.
 
 **Add a photo of Xiuxiu.** Put the file in `assets/`, then in `xiuxiu.html`
 copy the commented `<figure>` block, uncomment it, and point `src` at your file.
